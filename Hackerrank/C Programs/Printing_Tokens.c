@@ -27,17 +27,17 @@ C
 
 int main()
 {
-    char *s;
-    int i;
-    s = malloc(1024 * sizeof(char));
-    scanf("%[^\n]", s);
-    for(i=0;i<strlen(s);i++)
-    {
-        if(s[i] == ' ')
-            printf("\n");
-        else
-            printf("%c",s[i]);
-    }
-    return 0;
+	char *s;
+	int i;
+	s = malloc(1024 * sizeof(char));
+	scanf("%[^\n]", s);
+	for(i=0;i<strlen(s);i++)
+	{
+		if(s[i] == ' ')
+			printf("\n");
+		else
+			printf("%c",s[i]);
+	}
+	return 0;
 }
 
